@@ -17,7 +17,7 @@ public class Jogo {
         int aleatorio;
         
         
-        while(option.equalsIgnoreCase(option1)){
+        while(option.equalsIgnoreCase(option1) || option1.equalsIgnoreCase("s")){
             aleatorio = ThreadLocalRandom.current().nextInt(0,3);
             switch (aleatorio) {
                 case 0:
